@@ -7,23 +7,28 @@
     <link rel = "stylesheet" href = "styles.css" />
 </head>
 <body>
-    <header>
+    <header class = "dark">
+        <p class = "">Header Logo</p>
         <nav>
             <ul>
-                <li><a>Header link one</a></li>
-                <li><a>Header link two</a></li>
-                <li><a>Header link three</a></li>
+                <li><a href = "#info">header link one</a></li>
+                <li><a href = "#quote">header link two</a></li>
+                <li><a href = "#signup">header link three</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div class="Inroduction" id = "Introduction">
-            <h1>This website is awesome</h1>
-            <p>ThIs Is ThE sUbTiTlE tExT Lord God Almighty I'm tired of this</p>
-            <button>Sign up</button>
-            <img alt = "placeholder" src = "https://placehold.jp/400x300.png" />
+        <div class="hero dark" id = "hero">
+            <div class = "hero-text">
+                <h1>This website is awesome</h1>
+            <p>This website has some subtext that goes under the main title. It's a smaller font and the color is lower contrast</p>
+            <form action = "/">
+                <button>Sign up</button>
+            </form>
+            </div>
+            <div class = "hero-image"><img alt = "this is a placeholer for an image" src = "https://placehold.jp/400x300.png" /></div>
         </div>
-        <div class = "thingamabobers">
+        <div class = "info" id = "info">
             <h2 class = "section-title">WHY LOOKY HERE</h2>
             <div class = "thingamabober">
                 <img class = "item-image" alt = "placeholder" src = "https://placehold.jp/150x150.png" />
@@ -42,10 +47,10 @@
                 <p class = "item-description">Look at that thing</p>
             </div>
         </div>
-        <blockquote>
+        <blockquote class = "quote" id = "quote">
             <p>This is going to be a quote when I figure out what I want to put here</p><p>- By me, for now</p>
         </blockquote>
-        <div class = "signup">
+        <div class = "signup" id = "signup">
             <h3>pls sign up........</h3>
             <p>This is going to be a signup icon when I'm done with it</p>
             <button class = "signup">Sign up</button>
