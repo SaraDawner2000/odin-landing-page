@@ -66,3 +66,34 @@ body {
     border-radius: 12px;
     margin-top: 10px;
 }
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item-box{
+    display:flex;
+    flex-direction: row;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.item-image{
+    border: 3px solid #3882F6;
+    border-radius: 10pt;
+    max-width: 150px;
+}
+.item-description {
+    max-width: 150px;
+    text-align: center;
+    font-size: 18px;
+    color: #1F2937;
+}
+.info-header{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    padding: 20px 0 20px 0;
+}
